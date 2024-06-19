@@ -102,5 +102,54 @@ go build -o weather-app
     weather-app.exe --help
     ```
 
+Certainly! Here's the revised guide formatted in Markdown:
+
+### Installing Executable in Linux
+
+1. **Choose Installation Directory**:
+
+   Decide on a directory where you want to place your executable. A common choice is `/usr/local/bin`, which is typically included in the `PATH` by default.
+
+   ```bash
+   # Assuming your executable is named weather-app
+   sudo cp weather-app /usr/local/bin
+   ```
+
+   Replace `weather-app` with the actual name of your executable.
+
+2. **Set Execution Permissions**:
+
+   Ensure the executable has the correct permissions to be executed:
+
+   ```bash
+   sudo chmod +x /usr/local/bin/weather-app
+   ```
+
+3. **Verify Installation**:
+
+   To verify that the installation was successful, you can try running the executable from any directory:
+
+   ```bash
+   weather-app --help
+   ```
+
+   This command should display the help information for your application, indicating that it is installed correctly and accessible from the command line.
+
+### Notes
+
+- **Alternative Paths**: If you prefer not to use `/usr/local/bin`, you can choose another directory that is in your `PATH` environment variable. You can check your current `PATH` with `echo $PATH`.
+
+- **Permission Issues**: If you encounter permission issues, ensure you have appropriate permissions or use `sudo` as necessary.
+
+### Uninstallation
+
+If you ever need to uninstall the executable:
+
+```bash
+sudo rm /usr/local/bin/weather-app
+```
+
+This approach allows you to install your executable in Linux so that it can be invoked from anywhere in the command line, leveraging a directory (`/usr/local/bin`) that is commonly used for user-installed executables. Adjust the paths and commands as needed based on your specific setup and requirements.
+
 ## License
 This project is licensed under the MIT License.
