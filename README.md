@@ -25,8 +25,8 @@ Pet project for Mindinet
 ### Clone the repository
 
 ```sh
-git clone https://hadronp@bitbucket.org/hadronp/openweather-cli.git
-cd weather_app
+git clone https://github.com/hadronparticle/openweather-cli
+cd openweather-cli
 ```
 
 ### Initialize Go modules
@@ -47,7 +47,7 @@ const apiKey = "YOUR_API_KEY"
 ### Build the application
 
 ```sh
-go build -o weather_app
+go build -o weather-app
 ```
 
 ## Usage
@@ -57,7 +57,7 @@ go build -o weather_app
 1. **Set the correct permissions**:
 
     ```sh
-    chmod +x weather_app
+    chmod +x weather-app
     ```
 
 2. **Run the executable**:
@@ -65,19 +65,19 @@ go build -o weather_app
     To fetch weather data for a city:
 
     ```sh
-    ./weather_app --city "London"
+    ./weather-app --city "London"
     ```
 
     To convert speed from m/s to km/h:
 
     ```sh
-    ./weather_app --speed 10
+    ./weather-app --speed 10
     ```
 
     To view the help message:
 
     ```sh
-    ./weather_app --help
+    ./weather-app --help
     ```
 
 ### Windows
@@ -87,19 +87,19 @@ go build -o weather_app
     To fetch weather data for a city:
 
     ```sh
-    weather_app.exe --city "Cagayan de Oro City"
+    weather-app.exe --city "Cagayan de Oro City"
     ```
 
     To convert speed from m/s to km/h:
 
     ```sh
-    weather_app.exe --speed 10
+    weather-app.exe --speed 10
     ```
 
     To view the help message:
 
     ```sh
-    weather_app.exe --help
+    weather-app.exe --help
     ```
 
 ## License
