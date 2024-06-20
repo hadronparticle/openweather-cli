@@ -6,7 +6,7 @@ A CLI application to fetch current weather or convert speed using the OpenWeathe
 
 ## Author
 
-Weather App by Gooooaha Agaga Inc. (crappyqr@example.com)
+Weather App by 4I9KKZ. (crappyqr@example.com)
 
 Pet project for Mindinet
 
@@ -101,8 +101,6 @@ go build -o weather-app
     ```sh
     weather-app.exe --help
     ```
-
-Certainly! Here's the revised guide formatted in Markdown:
 
 ### Installing Executable in Linux
 
